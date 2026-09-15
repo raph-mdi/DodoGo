@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DodoGo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+    <h1><u>DodoGo</u></h1>
+    <div class="animate__animated animate__fadeIn">
+        <div id="banniere">
+            <img src="https://res.cloudinary.com/doxow9jfk/image/upload/v1789405849/gemini-svg_dvolpt.svg"
+                alt="trois petits cercles violet">
+        </div>
+        <form>
+            <label for="selection-reveil"></label>
+            <input type="number" id="selection-reveil" value="" name="duree" placeholder="?">
+
+            <button id="demarrage" type="button">Set
+                <audio src="https://res.cloudinary.com/doxow9jfk/video/upload/v1789201257/Alarme_r%C3%A9veil_pmdhiy.mp3"
+                    id="son-reveil"></audio>
+            </button>
+            <button id="snooze" type="button">Snooze</button>
+            <button id="stop" type="button">Stop</button>
+        </form>
+    </div>
+    <p></p>
+    <footer>Made by Raphael M'madi</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
