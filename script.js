@@ -28,9 +28,8 @@ function marche(){
             paragraphe.textContent = indication
         }, 1000)
     }, duree * 60000)
-    if(!duree || typeof duree !== "number"){
+    if(duree === ""){
         paragraphe.textContent = fausseSaisie
-        reset()
     }
 }
 
